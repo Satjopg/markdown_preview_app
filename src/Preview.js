@@ -16,7 +16,7 @@ class Preview extends React.Component {
     return(
       <div id="preview"
         dangerouslySetInnerHTML={{__html: marked(this.props.markdown)}}
-        ></div>
+      ></div>
     )
   }
 }

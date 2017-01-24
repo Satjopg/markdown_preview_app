@@ -1,8 +1,9 @@
 #preview{
-	width: 55%;
+	width: 50%;
 	height: 100%;
 	float: left;
 	overflow-y: scroll;
 	line-height: 1.5rem;
 	padding: 1rem;
+	background-color: white;
 }

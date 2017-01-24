@@ -9,14 +9,12 @@
   "dependencies": {
     "highlight.js": "^9.9.0",
     "highlightjs": "^9.8.0",
+    "material-ui": "^0.16.4",
     "pygmentize-bundled": "^2.3.0",
     "react": "^15.4.2",
     "react-ace": "^4.1.1",
     "react-dom": "^15.4.2",
-    "material-ui": "^0.16.4",
     "react-tap-event-plugin": "^2.0.1",
-    "reactstrap": "^3.9.1",
-    "react-addons-css-transition-group": "^15.4.1",
     "react-addons-transition-group": "^15.4.1"
   },
   "scripts": {
