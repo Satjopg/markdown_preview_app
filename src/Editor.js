@@ -2,7 +2,7 @@ import React, { PropTypes } from "react";
 import AceEditor from "react-ace";
 //import brace from 'brace';
 import 'brace/mode/markdown';
-import 'brace/theme/github';
+import 'brace/theme/textmate';
 import "./Editor.css"
 
 class Editor extends React.Component {
@@ -20,7 +20,7 @@ class Editor extends React.Component {
     return (
       <AceEditor
         mode="markdown"
-        theme="github"
+        theme="textmate"
         name="editor"
         value={text}
         editorProps={{$blockScrolling: true}}
